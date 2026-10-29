@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #f7f7f8;
+  color: #1a1a1a;
+}
+
+.finder {
+  max-width: 480px;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.finder h1 {
+  margin: 0 0 0.25rem;
+  font-size: 1.5rem;
+}
+
+.finder p {
+  margin: 0 0 1rem;
+  color: #555;
+}
+
+.list input {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid #eee;
+}
+
+.list li:last-child {
+  border-bottom: none;
+}
+
+.empty {
+  color: #888;
+  font-style: italic;
+}
